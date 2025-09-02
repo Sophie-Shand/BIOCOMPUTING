@@ -13,3 +13,14 @@ mkdir parent_directory/new_directory{1,2,3..7}
 > ls -ahl lists everything with time stamps and in human form. Alias is ll.
 
 > rm -r directory_name this removes **permanently** a folder. Just rm is for files.
+
+### Editing .md files with nano
+
+- enter nano filename, type whatever you want. To save and exit, CTRL+O, enter, CTRL+X
+
+### To cancel commands
+
+- CTRL+C
+
+This can be used if you accidently hit echo "nvmdsnvm <br />
+and forget to close the quote!
