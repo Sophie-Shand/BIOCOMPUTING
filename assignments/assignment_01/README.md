@@ -1,6 +1,9 @@
 - Start out in the assignments folder
+
 touch assignment_01/assignment_01_essay.md
+
 touch assignment_01/README.md
+
 > Now the directory assignment_01 contains two markdown files for the assignment
 - Move into the assignment_01 directory in order to create the project directories
 
@@ -38,7 +41,7 @@ touch results/result_1.csv
 
 touch scripts/analyze.py
 
->Now each of the directories that make up the project structure contain hypothetical files
+> Now each of the directories that make up the project structure contain hypothetical files
 
 - Now that the structure has been created and the files populated, they are ready to be staged to push to GitHub
 
