@@ -5,6 +5,7 @@ touch assignment_01/assignment_01_essay.md
 touch assignment_01/README.md
 
 \# Now the directory assignment_01 contains two markdown files for the assignment
+
 \# Move into the assignment_01 directory in order to create the project directories
 
 cd ./assignments/assignment_01
@@ -29,7 +30,7 @@ touch figures/plot.png
 
 touch logs/update_1.txt
 
-\# Create a python file that contains specific functions used in the data processing and analysis phases of the project. This could include gextensive detail on the functions, how they work, and the design logic
+\# Create a python file that contains specific functions used in the data processing and analysis phases of the project. This could include extensive detail on the functions, how they work, and the design logic
 
 touch references/functions.py
 
