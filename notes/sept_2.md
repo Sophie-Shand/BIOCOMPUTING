@@ -24,3 +24,5 @@ mkdir parent_directory/new_directory{1,2,3..7}
 
 This can be used if you accidently hit echo "nvmdsnvm <br />
 and forget to close the quote!
+
+~ literally means /Users/sophie
