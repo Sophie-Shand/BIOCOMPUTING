@@ -1,0 +1,5 @@
+#!/bin/bash
+
+head -n 1 first_last
+
+tail -n 1 first_last
