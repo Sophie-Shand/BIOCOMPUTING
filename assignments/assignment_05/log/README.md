@@ -106,9 +106,9 @@ FWD_OUT=${FWD_IN/.fastq.gz/.trimmed.fastq.gz} #the desired name for the trimmed 
 
 REV_OUT=${REV_IN/.fastq.gz/.trimmed.fastq.gz} #the desired name for the trimmed reverse file
 
-#call fastp, with our 2 inputs and 2 outputs as defined above
+#call fastp, with our 2 inputs and 2 outputs as defined above. Do not give an html or json file as output.
 
-fastp --in1 $FWD_IN --in2 $REV_IN --out1 ${FWD_OUT/raw/trimmed} --out2 ${REV_OUT/raw/trim>
+fastp --in1 $FWD_IN --in2 $REV_IN --out1 ${FWD_OUT/raw/trimmed} --out2 ${REV_OUT/raw/trim> --json /dev/null --html /dev/null
 
 #Script ENDS - crtl+o+enter+x
 
