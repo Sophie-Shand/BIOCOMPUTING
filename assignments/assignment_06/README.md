@@ -480,7 +480,7 @@ cd ../BIOCOMPUTING/assignments/assignment_06
 > by chatgpt and asking it if it would run correctly/what the expected output is. That wasn't fool proof, however.
 > Something else that surprised me was a bug in my install conda script that I didn't notice until I
 > had built my pipeline script. It turned out that I had forgotten to actually specify that I wanted
-> flye when I built my conda environment. I had mamba create -y -n flye-env and that's it!
+> flye when I built my conda environment. I had `mamba create -y -n flye-env` and that's it!
 > I didn't run into any issues when I first created that script because I created it in the same
 > work session as I had done my local build! So when I checked my conda script, everything worked fine
 > because Flye did exist in my path from my local build. However, when I tested my pipeline
