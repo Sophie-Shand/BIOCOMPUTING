@@ -1,0 +1,198 @@
+Here is your path, here we go!
+/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/local/slurm-23.11.9/bin:/usr/local/slurm-23.11.9/sbin:/usr/local/slurm-23.11.9/sbank/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sciclone/home/sshand/programs:/sciclone/home/sshand/programs/gh_2.74.2_linux_amd64/bin:/sciclone/home/sshand/programs:/sciclone/home/sshand/programs/seqtk:/sciclone/home/sshand/programs/tree:/sciclone/home/sshand/programs/sratoolkit.3.2.1-ubuntu64/bin:/sciclone/home/sshand/programs:/sciclone/home/sshand/programs/sratoolkit.3.2.1-ubuntu64/bin:/sciclone/home/sshand/programs/tree
+Archive:  ./data/dog_reference/dog_reference_genome.zip
+  inflating: ./data/dog_reference/temp/README.md  
+  inflating: ./data/dog_reference/temp/ncbi_dataset/data/assembly_data_report.jsonl  
+  inflating: ./data/dog_reference/temp/ncbi_dataset/data/GCF_011100685.1/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna  
+  inflating: ./data/dog_reference/temp/ncbi_dataset/data/dataset_catalog.json  
+  inflating: ./data/dog_reference/temp/md5sum.txt  
+This is the directory structure after running script 1!
+.
+├── assignment_7_pipeline.slurm
+├── data
+│   ├── dog_reference
+│   │   └── dog_reference_genome.fna
+│   ├── raw
+│   │   ├── SRR10854750_1.fastq
+│   │   ├── SRR10854750_2.fastq
+│   │   ├── SRR10854759_1.fastq
+│   │   ├── SRR10854759_2.fastq
+│   │   ├── SRR10854783_1.fastq
+│   │   ├── SRR10854783_2.fastq
+│   │   ├── SRR10854792_1.fastq
+│   │   ├── SRR10854792_2.fastq
+│   │   ├── SRR10854808_1.fastq
+│   │   ├── SRR10854808_2.fastq
+│   │   ├── SRR10854813_1.fastq
+│   │   ├── SRR10854813_2.fastq
+│   │   ├── SRR10854814_1.fastq
+│   │   ├── SRR10854814_2.fastq
+│   │   ├── SRR10854827_1.fastq
+│   │   ├── SRR10854827_2.fastq
+│   │   ├── SRR10854829_1.fastq
+│   │   ├── SRR10854829_2.fastq
+│   │   ├── SRR10854835_1.fastq
+│   │   └── SRR10854835_2.fastq
+│   └── SraRunTable.csv
+├── output
+│   ├── assignment_7_221324.err
+│   └── assignment_7_221324.out
+└── scripts
+    ├── 01_download_data.sh
+    ├── 02_clean_reads.sh
+    └── 03_map_reads.sh
+
+5 directories, 28 files
+This is the directory structure after running script 2!
+.
+├── assignment_7_pipeline.slurm
+├── data
+│   ├── clean
+│   │   ├── SRR10854750_1.clean.fastq
+│   │   ├── SRR10854750_2.clean.fastq
+│   │   ├── SRR10854759_1.clean.fastq
+│   │   ├── SRR10854759_2.clean.fastq
+│   │   ├── SRR10854783_1.clean.fastq
+│   │   ├── SRR10854783_2.clean.fastq
+│   │   ├── SRR10854792_1.clean.fastq
+│   │   ├── SRR10854792_2.clean.fastq
+│   │   ├── SRR10854808_1.clean.fastq
+│   │   ├── SRR10854808_2.clean.fastq
+│   │   ├── SRR10854813_1.clean.fastq
+│   │   ├── SRR10854813_2.clean.fastq
+│   │   ├── SRR10854814_1.clean.fastq
+│   │   ├── SRR10854814_2.clean.fastq
+│   │   ├── SRR10854827_1.clean.fastq
+│   │   ├── SRR10854827_2.clean.fastq
+│   │   ├── SRR10854829_1.clean.fastq
+│   │   ├── SRR10854829_2.clean.fastq
+│   │   ├── SRR10854835_1.clean.fastq
+│   │   └── SRR10854835_2.clean.fastq
+│   ├── dog_reference
+│   │   └── dog_reference_genome.fna
+│   ├── raw
+│   │   ├── SRR10854750_1.fastq
+│   │   ├── SRR10854750_2.fastq
+│   │   ├── SRR10854759_1.fastq
+│   │   ├── SRR10854759_2.fastq
+│   │   ├── SRR10854783_1.fastq
+│   │   ├── SRR10854783_2.fastq
+│   │   ├── SRR10854792_1.fastq
+│   │   ├── SRR10854792_2.fastq
+│   │   ├── SRR10854808_1.fastq
+│   │   ├── SRR10854808_2.fastq
+│   │   ├── SRR10854813_1.fastq
+│   │   ├── SRR10854813_2.fastq
+│   │   ├── SRR10854814_1.fastq
+│   │   ├── SRR10854814_2.fastq
+│   │   ├── SRR10854827_1.fastq
+│   │   ├── SRR10854827_2.fastq
+│   │   ├── SRR10854829_1.fastq
+│   │   ├── SRR10854829_2.fastq
+│   │   ├── SRR10854835_1.fastq
+│   │   └── SRR10854835_2.fastq
+│   └── SraRunTable.csv
+├── output
+│   ├── assignment_7_221324.err
+│   └── assignment_7_221324.out
+└── scripts
+    ├── 01_download_data.sh
+    ├── 02_clean_reads.sh
+    └── 03_map_reads.sh
+
+6 directories, 48 files
+This is the directory structure after running script 3! Congrats!
+.
+├── assignment_7_pipeline.slurm
+├── data
+│   ├── clean
+│   │   ├── SRR10854750_1.clean.fastq
+│   │   ├── SRR10854750_2.clean.fastq
+│   │   ├── SRR10854759_1.clean.fastq
+│   │   ├── SRR10854759_2.clean.fastq
+│   │   ├── SRR10854783_1.clean.fastq
+│   │   ├── SRR10854783_2.clean.fastq
+│   │   ├── SRR10854792_1.clean.fastq
+│   │   ├── SRR10854792_2.clean.fastq
+│   │   ├── SRR10854808_1.clean.fastq
+│   │   ├── SRR10854808_2.clean.fastq
+│   │   ├── SRR10854813_1.clean.fastq
+│   │   ├── SRR10854813_2.clean.fastq
+│   │   ├── SRR10854814_1.clean.fastq
+│   │   ├── SRR10854814_2.clean.fastq
+│   │   ├── SRR10854827_1.clean.fastq
+│   │   ├── SRR10854827_2.clean.fastq
+│   │   ├── SRR10854829_1.clean.fastq
+│   │   ├── SRR10854829_2.clean.fastq
+│   │   ├── SRR10854835_1.clean.fastq
+│   │   └── SRR10854835_2.clean.fastq
+│   ├── dog_reference
+│   │   └── dog_reference_genome.fna
+│   ├── raw
+│   │   ├── SRR10854750_1.fastq
+│   │   ├── SRR10854750_2.fastq
+│   │   ├── SRR10854759_1.fastq
+│   │   ├── SRR10854759_2.fastq
+│   │   ├── SRR10854783_1.fastq
+│   │   ├── SRR10854783_2.fastq
+│   │   ├── SRR10854792_1.fastq
+│   │   ├── SRR10854792_2.fastq
+│   │   ├── SRR10854808_1.fastq
+│   │   ├── SRR10854808_2.fastq
+│   │   ├── SRR10854813_1.fastq
+│   │   ├── SRR10854813_2.fastq
+│   │   ├── SRR10854814_1.fastq
+│   │   ├── SRR10854814_2.fastq
+│   │   ├── SRR10854827_1.fastq
+│   │   ├── SRR10854827_2.fastq
+│   │   ├── SRR10854829_1.fastq
+│   │   ├── SRR10854829_2.fastq
+│   │   ├── SRR10854835_1.fastq
+│   │   └── SRR10854835_2.fastq
+│   └── SraRunTable.csv
+├── output
+│   ├── assignment_7_221324.err
+│   ├── assignment_7_221324.out
+│   ├── SRR10854750_dog-matches.sam
+│   ├── SRR10854750.sam
+│   ├── SRR10854759_dog-matches.sam
+│   ├── SRR10854759.sam
+│   ├── SRR10854783_dog-matches.sam
+│   ├── SRR10854783.sam
+│   ├── SRR10854792_dog-matches.sam
+│   ├── SRR10854792.sam
+│   ├── SRR10854808_dog-matches.sam
+│   ├── SRR10854808.sam
+│   ├── SRR10854813_dog-matches.sam
+│   ├── SRR10854813.sam
+│   ├── SRR10854814_dog-matches.sam
+│   ├── SRR10854814.sam
+│   ├── SRR10854827_dog-matches.sam
+│   ├── SRR10854827.sam
+│   ├── SRR10854829_dog-matches.sam
+│   ├── SRR10854829.sam
+│   ├── SRR10854835_dog-matches.sam
+│   └── SRR10854835.sam
+├── ref
+│   ├── genome
+│   │   └── 1
+│   │       ├── chr1.chrom.gz
+│   │       ├── chr2.chrom.gz
+│   │       ├── chr3.chrom.gz
+│   │       ├── chr4.chrom.gz
+│   │       ├── chr5.chrom.gz
+│   │       ├── info.txt
+│   │       ├── scaffolds.txt.gz
+│   │       └── summary.txt
+│   └── index
+│       └── 1
+│           ├── chr1-3_index_k13_c2_b1.block
+│           ├── chr1-3_index_k13_c2_b1.block2.gz
+│           ├── chr4-5_index_k13_c2_b1.block
+│           └── chr4-5_index_k13_c2_b1.block2.gz
+└── scripts
+    ├── 01_download_data.sh
+    ├── 02_clean_reads.sh
+    └── 03_map_reads.sh
+
+11 directories, 80 files
