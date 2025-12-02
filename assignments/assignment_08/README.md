@@ -4,6 +4,8 @@
 > The study broke down their samples into three age groups, we selected 3 samples from the young 
 > age group, YO, 4 from the middle age group, MO, and 3 from the old age group, LO.
 >
+> These samples were processed in our four person group pipeline, but each person changed one hyperparameter in the pipeline. I changed a hyperparameter in script 04. Specifically, I added an **--evalue 1e-15** flag to prokka.
+>
 > In order to obtain the same SRA accession file, enter the following search term into NIH's SRA server:
 >> PRJNA1195999[All Fields]
 >
